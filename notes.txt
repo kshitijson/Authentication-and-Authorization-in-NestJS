@@ -1,0 +1,45 @@
+--- User Schema --- done
+    - delete role column
+    - timestamps - (Createdat, UpdatedAt)
+
+--- role schema --- done
+    - user_id
+    - role
+
+-- register (api) --- done
+    - check if user aready exists ..
+    - insert into users table ..
+    - insert into roles table ..
+    - Input Validation (class validator decorators) ..
+    - set role as enum ..
+    - add name column ..
+    - add swagger doc for register api ..
+
+-- authenticate (login api) -- done
+    - create AuthenticateDto ..
+    - fetch role from roles table ..
+    - create and send access and refresh token ..
+    - send status code for invalid credentials ..
+    - add swagger api docs ..
+
+-- change password api --
+    - headers: token 
+    - body: old password & new password 
+    - check if token is 
+    - error handling using try / catch for token (expiry, validity)
+    - check if old password is correct 
+    - update old password with new password.
+
+-- create post api -- done
+    - header must contain the access token .. 
+    - body needs a blog title and blog body .. 
+    - posts dto ..
+    - add isDeleted field to the schema which is a boolean ( for soft delete ) ..
+    - add blog title field ..
+    - check if the same blog title exists (409 conflict) ..
+    - insert into the posts table. (201 created) ..
+    - Token expired, Invalid token (401 unauthorized) ..
+
+
+
+**** Hard Delete and Soft Delete *****  

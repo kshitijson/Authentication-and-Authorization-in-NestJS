@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1731051648645,
+      "tag": "0000_zippy_diamondback",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1731052712695,
+      "tag": "0001_added_timestamps_in_posts",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1731052917027,
+      "tag": "0002_changed_timestamp_field_names",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1731066624656,
+      "tag": "0003_added_name_field_in_users_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1731067994233,
+      "tag": "0004_modified_name_field_in_users_table_to_not_null",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1731312212817,
+      "tag": "0005_Added_title_and_isDeleted_field_to_the_post_schema",
+      "breakpoints": true
+    }
+  ]
+}
